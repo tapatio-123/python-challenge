@@ -34,7 +34,7 @@ with open(budget_csv) as csvfile:
     inc_pl = max(delta)
     dec_pl = min(delta)
 
-#matching the above variables to column in csv file to get date
+#matching the above variables to column in csv file to get corresponding date
     inc_date = datelist[delta.index(max(delta))+1]
     dec_date = datelist[delta.index(min(delta))+1]
  
